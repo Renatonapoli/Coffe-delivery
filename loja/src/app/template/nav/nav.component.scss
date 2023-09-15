@@ -1,0 +1,51 @@
+.container-nav {
+  display: flex;
+  width: calc(100vw - 11rem);
+  padding: 2rem 5rem;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 0;
+
+  img {
+    width: 5.31rem;
+  }
+}
+
+.nav {
+  display: flex;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-right: 0.8rem;
+  margin-left: auto;
+
+  width: 8.938rem;
+  height: 2.375rem;
+  border-radius: 6px;
+  justify-content: center;
+
+  background: #ebe5f9;
+
+  font-size: 0.75rem;
+
+  span {
+    color: #4b2995;
+  }
+}
+
+.cart {
+  width: 2.375rem;
+  height: 2.375rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+
+  background: #f1e9c9;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

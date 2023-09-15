@@ -9,20 +9,24 @@ import { HeaderComponent } from './template/header/header.component';
 import { HomeComponent } from './views/home/home.component';
 import { PaymentComponent } from './views/payment/payment.component';
 
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     HeaderComponent,
     HomeComponent,
-    PaymentComponent
+    PaymentComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSidenavModule,
+    MatIconModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
